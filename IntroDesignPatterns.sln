@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroDesignPatterns", "IntroDesignPatterns.csproj", "{3C6D787B-7673-41B2-B8F5-E41568FE8B91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C6D787B-7673-41B2-B8F5-E41568FE8B91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C6D787B-7673-41B2-B8F5-E41568FE8B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C6D787B-7673-41B2-B8F5-E41568FE8B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C6D787B-7673-41B2-B8F5-E41568FE8B91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3036049D-AA57-49D1-8C2C-0D898F5B70A3}
+	EndGlobalSection
+EndGlobal

@@ -6,12 +6,12 @@ namespace IntroDesignPatterns
     {
         static void Main(string[] args)
         {
-            var mallardDuck = new MallardDuck();
-            mallardDuck.Swim();
-            mallardDuck.Display();
-            mallardDuck.PerformFly();
-            mallardDuck.PerformQuack();
-
+            var modelDuck = new ModelDuck();
+            modelDuck.SetFlyBehavior(new FlyRocketPowered());
+            modelDuck.Swim();
+            modelDuck.Display();
+            modelDuck.PerformFly();
+            modelDuck.PerformQuack();
         }
     }
 }

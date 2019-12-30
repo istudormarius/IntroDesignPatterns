@@ -23,5 +23,15 @@ namespace IntroDesignPatterns
         {
             flyBehavior.Fly();
         }
+
+        public void SetFlyBehavior(FlyBehavior flyBehavior)
+        {
+           this.flyBehavior = flyBehavior;
+        }
+
+        public void SetQuackBehavior(QuackBehavior quackBehavior)
+        {
+            this.quackBehavior = quackBehavior;
+        }
     }
 }

@@ -4,8 +4,8 @@ using System.Text;
 
 namespace IntroDesignPatterns
 {
-    public interface IFlyable
+    public abstract class FlyBehavior
     {
-        public void Fly();
+        public virtual void Fly() { }
     }
 }

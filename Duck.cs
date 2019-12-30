@@ -3,23 +3,25 @@
 namespace IntroDesignPatterns
 {
     public abstract class Duck
-    {       
-        /// <summary>
-        /// All ducks swim
-        /// </summary>
-        public virtual void Swim()
+    {
+        public QuackBehavior quackBehavior;
+        public FlyBehavior flyBehavior;
+
+        public abstract void Display();
+
+        public void Swim()
         {
-            Console.WriteLine("Base class - Swim");
+            Console.WriteLine("Base class - All ducks float, even decoys");
         }
 
-        /// <summary>
-        /// All ducks subtypes look different
-        /// </summary>
-        public virtual void Display()
+        public void PerformQuack()
         {
-
+            quackBehavior.QuackQuack();
         }
 
-        //other duck-like methods
+        public void PerformFly()
+        {
+            flyBehavior.Fly();
+        }
     }
 }

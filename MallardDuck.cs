@@ -2,21 +2,17 @@
 
 namespace IntroDesignPatterns
 {
-    public class MallardDuck : Duck, IFlyable, IQuackable
+    public class MallardDuck : Duck
     {
+        public MallardDuck()
+        {
+            base.flyBehavior = new FlyWithWings();
+            base.quackBehavior = new Quack();
+        }
+
         public override void Display()
         {
-            Console.WriteLine("Looks like a mallard");
-        }
-
-        public void Fly()
-        {
-            Console.WriteLine("Mallard Duck - Fly");
-        }
-
-        public void Quack()
-        {
-            Console.WriteLine("MallardDuck - QUack");
+            Console.WriteLine("Super set: I'm a real mallard duck");
         }
     }
 }

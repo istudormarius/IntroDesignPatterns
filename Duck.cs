@@ -3,19 +3,11 @@
 namespace IntroDesignPatterns
 {
     public abstract class Duck
-    {
-        /// <summary>
-        /// All ducks quacks
-        /// </summary>
-        public void Quack()
-        {
-            Console.WriteLine("Base class - Quack");
-        }
-
+    {       
         /// <summary>
         /// All ducks swim
         /// </summary>
-        public void Swim()
+        public virtual void Swim()
         {
             Console.WriteLine("Base class - Swim");
         }
@@ -27,5 +19,7 @@ namespace IntroDesignPatterns
         {
 
         }
+
+        //other duck-like methods
     }
 }
